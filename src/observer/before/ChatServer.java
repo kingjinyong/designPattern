@@ -23,7 +23,7 @@ public class ChatServer {
         }
     }
 
-    public List<String> getMessages(String subject) {
+    public List<String> getMessage(String subject) {
         return messages.get(subject);
     }
 }
